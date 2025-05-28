@@ -1,0 +1,134 @@
+* { box-sizing: border-box;
+}
+
+body { background: #518F00;
+	color: #4d493f;
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 0px 20px 20px 20px;
+}
+
+#text { background: white;
+}
+
+header { font-size: 25px;
+	text-align: center;
+}
+
+nav { text-align: center;
+	font-size: 130%;
+	background: lightgray;
+}
+
+nav a { text-decoration: none;
+	color: #0D186C;
+}
+
+nav ul { list-style-type: none;
+	display: flex;
+	flex-wrap: nowrap;
+	flex-direction: row;
+	justify-content: space-between;
+	justify-content: space-around;	
+}
+
+nav :hover { color: #4451B0;
+}
+
+header :link{ list-style-type: none;
+		text-decoration: none;
+		color: black;
+}
+
+header :visited { color: black;
+}
+
+h3 { font-size: 20px;
+}
+
+h4 {text-align: center;}
+
+p { font-size: 17px;
+}
+
+main { margin-left: 30px;
+	margin-right: 30px;
+}
+
+#gridvideo { display: grid;
+		grid-template-columns: auto auto;
+		grid-gap: 30px;
+}
+
+#video { grid-columns: 1 / 1;
+}
+
+section { grid-columns: 2 / 1;
+}
+
+#filtertext { display: grid;
+		grid-template-columns: auto auto;
+		grid-gap: 30px;
+}
+
+#filter { grid-columns: 1 / 2;
+}
+
+#whatis { grid-columns: 1 / 1;
+}
+
+#dietvideo { display: grid;
+		grid-template-columns: auto auto;
+		grid-gap: 30px;
+}
+
+#diet { grid-columns: 1 / 2;
+}
+
+#sodiumvideo { grid-columns: 1 / 1;
+}
+
+#formtext { display: grid;
+		grid-template-columns: auto auto;
+		grid-gap: 30px;
+}
+
+#form { grid-columns: 1 / 2;
+	background: linear-gradient(to bottom, #FFFFFF, #6772C5);
+	color: black;
+}
+
+form { margin: 5px 5px 5px 5px;
+}
+
+#whatis2 { grid-columns: 1 / 1;
+}
+
+a { text-decoration: none;
+	color: blue;
+}
+
+table { border: 1px solid black;
+	border-collapse: collapse;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+}
+
+th { border: 1px solid black;
+	background: #518F00;
+	color: white;
+}
+
+tr { background: lightgray;
+}
+
+td { border: 1px solid black;
+	padding: 10px 10px 10px 10px;
+}
+
+footer { text-align: center;
+	background: #E86996;
+	color: black;
+	padding-bottom: 50px;
+	padding-top: 5px;
+}
